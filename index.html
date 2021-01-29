@@ -3,9 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Calculator</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <!-- External File -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <section class="container mt-3 margin">
+        <h1 class="mb-5 text-center title">Calculator</h1>
+        <div class="calculators">
+            <div class="calculator-display">
+                <div class="display mx-auto">
+                    <div class="output">378</div>
+                </div>
+            </div>
+
+            <div class="calculator-keys pb-4">
+                <div class="row items">
+                    <div class="col-3">
+                        <button class="mt-2 key-item text-white bg-color">AC</button>
+                    </div>
+                    <div class="col-3">
+                        <button class="mt-2 key-item text-dark">%</button>
+                    </div>
+                    <div class="col-3">
+                        <button class="mt-2 key-item text-dark">×</button>
+                    </div>
+                    <div class="col-3">
+                        <button class="mt-2 key-item text-dark">÷</button>
+                    </div>
+                </div>
+
+                <div class="row items">
+                    <div class="col-3">
+                        <button class="mt-2 key-item text-dark">7</button>
+                    </div>
+                    <div class="col-3">
+                        <button class="mt-2 key-item text-dark">8</button>
+                    </div>
+                    <div class="col-3">
+                        <button class="mt-2 key-item text-dark">9</button>
+                    </div>
+                    <div class="col-3">
+                        <button class="mt-2 key-item text-dark">-</button>
+                    </div>
+                </div>
+
+                <div class="row items">
+                    <div class="col-3">
+                        <button class="mt-2 key-item text-dark">4</button>
+                    </div>
+                    <div class="col-3">
+                        <button class="mt-2 key-item text-dark">5</button>
+                    </div>
+                    <div class="col-3">
+                        <button class="mt-2 key-item text-dark">6</button>
+                    </div>
+                    <div class="col-3">
+                        <button class="mt-2 key-item text-dark">+</button>
+                    </div>
+                </div>
+                <div class="row items">
+                    <div class="col-3">
+                        <button class="mt-2 key-item text-dark">1</button>
+                    </div>
+                    <div class="col-3">
+                        <button class="mt-2 key-item text-dark">2</button>
+                    </div>
+                    <div class="col-3">
+                        <button class="mt-2 key-item text-dark">3</button>
+                    </div>
+                    <div class="col-3">
+                        <button class="mt-2 key-item text-dark pad">+/-</button>
+                    </div>
+                </div>
+
+                <div class="row items">
+                    <div class="col-3">
+                        <button class="mt-2 key-item text-dark">0</button>
+                    </div>
+                    <div class="col-3">
+                        <button class="mt-2 key-item text-dark">,</button>
+                    </div>
+                    <div class="col-3">
+                        <button class="last mt-2 key-item text-white bg-orange">=</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="mt-5 text-center">
+        <p><small>This calculator made by &copy; Muhammad Shahnewaz, all right reserved.</small></p>
+    </footer>
+
+    <!-- JS FIle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
 </body>
 </html>
